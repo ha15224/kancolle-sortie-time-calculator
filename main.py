@@ -190,7 +190,7 @@ for i, entry in enumerate(data):
                 )
 
                 if is_cv:
-                    if sp == 7:
+                    if sp == 6:
                         cvci += 1
                     else:
                         cvshell += 1
@@ -280,8 +280,8 @@ avg_nzci = statistics.mean(t["nzci"] for t in tally)
 avg_gunci = statistics.mean(t["gunci"] for t in tally)
 avg_tci = statistics.mean(t["tci"] for t in tally)
 
-print("平均時間", avgtime)
-print("標準偏差", time_std)
+print("平均時間:", avgtime)
+print("標準偏差:", time_std)
 print("各アニメーション平均回数:")
 print("艦載機あり索敵成功（5.1秒）:", avg_detection_plane)
 print("艦載機なし索敵成功（4.0秒）:", avg_detection_noplane)
@@ -299,4 +299,5 @@ print("対潜（2.7秒）:", avg_asw)
 print("夜戦突入（6.0秒）:", avg_yasen)
 print("夜間瑞雲CI（8.3秒）:", avg_nzci)
 print("主主主CI（3.8秒）:", avg_gunci)
+
 print("魚CI（5.5秒）:", avg_tci)
