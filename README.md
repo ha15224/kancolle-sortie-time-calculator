@@ -1,5 +1,7 @@
 ### 戦果や海域RTAに使える平均出撃時間の計算機
 
+ダウンロード：https://github.com/ha15224/kancolle-sortie-time-calculator/archive/refs/tags/app_v0.1.zip
+
 ※注1:基本的に通常海域での使用を想定して作成しています．イベント海域に現れる特殊な敵（潜水棲姫，空母棲姫等）は一部対応していません．
 
 ### 使い方：
